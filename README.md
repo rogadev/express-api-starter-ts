@@ -6,6 +6,12 @@ How to use this template:
 npx create-express-api --typescript --directory my-api-name
 ```
 
+If your version of Node throws an error, you may want to try:
+
+```sh
+npx create-express-api my-api-name
+```
+
 Includes API Server utilities:
 
 * [morgan](https://www.npmjs.com/package/morgan)
